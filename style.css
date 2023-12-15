@@ -1,0 +1,83 @@
+
+body{
+    background: #1a1a1b;
+
+}
+.container{
+    background-color:#fff;
+    width:40%;
+    min-width:500px;
+    position: absolute;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    padding:20px 0;
+    padding-bottom: 50px;
+    border-radius:30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+ .timer
+ {
+    position:relative;
+    width:80%;
+    background: white;
+    font-family:'Roboto mono', monospace;
+    font-size: 25px;
+    color:purple;
+    left:4%;
+    padding:35px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow:0 0 20px rgba(60, 10, 140,0.33);
+ }
+ 
+ .bottons
+ {
+    position:relative;
+    width:90%;
+    margin:60px  auto 0 auto;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+
+ }/*   button styling*/
+  .bottons button{
+    width:120px;
+    height:40px;
+    border-radius: 10px;
+    border-style:ridge;
+    
+    background-color: green;
+    color:white;
+    font-size: 20px;
+    cursor:pointer;
+  }
+/*giving a traffic light look*/
+  .bottons button:nth-child(2)
+  {
+    background-color:orange;
+  }
+  .bottons button:nth-child(3)
+  {
+    background-color:red;
+  }
+  .bottons button:hover{
+    box-shadow: 0 0 20px rgba(60, 10, 140,0.33);
+  }
+
+    
+
+ 
+
+
+
+
+
+
+
+
+
